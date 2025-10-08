@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livestream Pay Per View - User</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">User Page</a>
+    <a href="admin.html">Admin Page</a>
+  </nav>
+  <main>
+    <div id="login-section"></div>
+    <section id="advert-section">
+      <h2>Livestreams & Upcoming Videos</h2>
+      <div id="adverts"></div>
+    </section>
+    <section id="videos-section">
+      <h2>Past Videos</h2>
+      <div id="video-cards"></div>
+    </section>
+  </main>
+  <script src="user.js"></script>
+</body>
 </html>
