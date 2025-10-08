@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="admin.html">Admin</a>
+    <a href="video.html">Video</a>
+  </nav>
+  <main>
+    <h1>Video Page</h1>
+    <p id="videoId">Video ID: </p>
+    <!-- Add video player and details here -->
+  </main>
+  <script>
+    // Get video id from URL
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    document.getElementById('videoId').textContent = 'Video ID: ' + (id || 'N/A');
+  </script>
+</body>
+</html>
