@@ -16,7 +16,7 @@ import {
 } from '@mui/material';
 import { Send as SendIcon, ArrowBack as ArrowBackIcon } from '@mui/icons-material';
 import ReactPlayer from 'react-player';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from './src/context/AuthContext';
 
 // Mock video data - in a real app, this would come from an API
 const mockVideos = [
