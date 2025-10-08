@@ -15,7 +15,7 @@ import {
   useTheme,
   useMediaQuery
 } from '@mui/material';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from './src/context/AuthContext';
 
 // Mock data - in a real app, this would come from an API
 interface Video {
